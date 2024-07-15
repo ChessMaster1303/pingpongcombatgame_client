@@ -24,8 +24,8 @@ function startMenuFunctions() {
 	textAlign(CENTER)
 	text("W", width * 0.6 / 4, height * 1.3 / 4 + width * 0.15 / 4)
 	text("A", width * 0.25 / 4, height * 1.95 / 4 + width * 0.15 / 4)
-	text("S", width * 0.95 / 4, height * 1.95 / 4 + width * 0.15 / 4)
-	text("D", width * 0.6 / 4, height * 2.6 / 4 + width * 0.15 / 4)
+	text("D", width * 0.95 / 4, height * 1.95 / 4 + width * 0.15 / 4)
+	text("S", width * 0.6 / 4, height * 2.6 / 4 + width * 0.15 / 4)
 	text("F", width * 0.3 / 4, height * 3.3 / 4 + width * 0.15 / 4)
 	text("B", width * 0.9 / 4, height * 3.3 / 4 + width * 0.15 / 4)
 
