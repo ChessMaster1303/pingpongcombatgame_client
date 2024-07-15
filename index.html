@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- p5js -->
+    <script src="./libraries/p5.min.js"></script>
+    <script src="./libraries/p5.sound.min.js"></script>
+    <!-- p5play -->
+    <script src="./libraries/planck.min.js"></script>
+    <script src="./libraries/p5play.min.js"></script>
+    <!-- socketio -->
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    
+    <!--various managers for the different objects-->
+    <script src="playerManager.js"></script>
+    <script src="projectileManager.js"></script>
+    <script src="wallManager.js"></script>
+
+    <!--player and building functionality-->
+    <script src="playerFunctions.js"></script>
+    <script src="build.js"></script>
+
+    <!--Tutorial and Changelog functionality-->
+    <script src="startMenuFunctions.js"></script>
+
+    <!--main script-->
+    <script src="sketch.js"></script>
+
+    
+</head>
+<body>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            overflow: hidden;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</body>
+</html>
